@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>BlogCafe</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name no-margin centrar-texto">Blog<span class="logo__bold">Café</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div> <!-- .barra -->
+        </div> <!-- .contenedor -->
+
+        <div class="header__texto ">
+            <h2 class="no-margin">Blog de Café con consejos y cursos</h2>
+            <p class="no-margin">Aprende con las mejores recetas y consejos</p>
+        </div>
+
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-texto">Contacto</h3>
+
+        <div class="bg-contacto"></div>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Complete los datos</legend>
+                <div class="formulario__contenedor">
+                    
+                    <div class="campo">
+                        <label class="campo__label" for="nombre">Nombre: </label>
+                        <input class="campo__field" type="text" 
+                        placeholder="Su nombre" 
+                        id="nombre">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="email">E-mail: </label>
+                        <input class="campo__field" type="email" 
+                        placeholder="Su correo electrónico" 
+                        id="email">
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="mensaje">Mensaje: </label>
+                        <textarea class="campo__field campo__field--textarea" 
+                        name="mensaje" 
+                        id="mensaje" placeholder="Escriba su mensaje"></textarea>
+                    </div>
+                    
+                </div> <!-- .formulario__contenedor -->
+                
+                <div class="campo boton_position">
+                    <input  type="submit" value="Enviar" class="boton boton-secundario ">
+                </div>
+                
+            </fieldset>
+        </form>
+
+    </main> <!-- .main -->
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__name no-margin centrar-texto">Blog<span class="logo__bold">Café</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+                    <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+                </nav>
+
+            </div> <!-- .barra -->
+        </div>
+    </footer>
+
+</body>
+
+</html>
